@@ -366,6 +366,24 @@ body {
 }
 
     
+/* css footer*/
+
+footer{
+  background-color: rgb(80, 78, 78) ;
+  color: azure;
+  
+}
+
+
+
+
+a:houver{
+  background-color: orangered;
+}
+
+div.div-footer{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
 }
 
 

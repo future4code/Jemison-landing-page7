@@ -1,0 +1,246 @@
+.menu{
+    width: 200vh;
+    height: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    position: absolute;
+    left: 0px;
+    
+}
+.final{
+    display: block;
+    left: 240px;
+}
+#logo1{
+   display: none;
+   border-radius: 250%; 
+}
+.menu ul{
+    list-style: none;
+    position: relative;
+    display: inline;
+
+}
+.menu ul li{
+    width: 150px;
+    float:left;
+    padding: 5px;
+
+}
+.menu .menu2{
+    padding: 1px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+}
+.menu ul ul{
+    position: relative;
+    visibility: hidden;
+
+}
+#logof4{
+    position: relative;
+    top: -40px;
+}
+.menu ul li:hover ul{
+
+    visibility: visible;
+}
+#logo{
+    background-color: orange;
+    border-radius: 40%;
+}
+#logo2{
+    background-color: orange;
+    border-radius: 40%;
+}
+.menu .menu2:hover {
+    background-color: orangered;
+    color: black;
+    border-radius: 10%;
+}
+.menu a:hover{  
+    background-color: orange;
+
+}
+.menu ul ul li{
+    float:none;
+    border-bottom: solid 1px white;
+
+}
+.menu ul ul li a{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+label[for="botao-menu"]{
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+#botao-menu{
+    display: none;
+}
+label[for="botao-menu"]{
+display: none;
+
+}
+@media(max-width: 1200px) {
+    .menu{
+        width: 200vh;
+        height: 50px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .final{
+        display: block;
+        left: -30px;
+    }
+   
+    .menu ul{
+        list-style: none;
+        position: relative;
+        display: inline;
+    
+    }
+    .menu ul li{
+        width: 130px;
+        float:left;
+        padding: 5px;
+    
+    }
+    .menu .menu2{
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: white;
+        color: black;
+        
+    }
+    .menu ul ul{
+        position: absolute;
+        visibility: hidden;
+    
+    }
+    .menu ul li:hover ul{
+        visibility: visible;
+    }
+    #logo{
+        background-color: orange;
+        border-radius: 40%;
+    }
+    #logo2{
+        background-color: orange;
+        border-radius: 40%;
+    }
+    .menu .menu2:hover{
+        background-color: orangered;
+        color: black;
+        border-radius: 10%;
+    }
+    .menu a:hover{  
+        background-color: orange;
+    
+    }
+    .menu ul ul li{
+        float:none;
+        border-bottom: solid 1px white;
+    
+    }
+    .menu ul ul li a{
+        background-color: orange;
+        border-radius: 50%;
+        padding: 15px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    label[for="botao-menu"]{
+        padding: 5px;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+    }
+    #botao-menu{
+        display: none;
+    }
+    label[for="botao-menu"]{
+    display: none;
+    
+}
+}
+@media(max-width: 800px){
+    label[for="botao-menu"]{
+        display: block;
+    }
+    #logo1{position: relative;
+        display: inline;
+        background-color:rgb(199, 136, 85);
+    width: 80%;
+    padding: 10%;
+        
+    }
+  .botaologo{
+    display: inline;
+    grid-template-columns: 90% 10%;
+    justify-items: start;
+    
+    margin: 0px;
+
+  }
+    #botao-menu:checked ~ .menu{
+        margin-left: 100px;
+
+
+    }
+    .menu {
+        display: grid;
+    grid-template-columns: 100%;
+    justify-items: start;
+    margin: 50px;
+            width: 10%;
+            height: 0%;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-left: -120%;
+        transition: all .4s;
+    }
+    .menu ul li{
+    width: 100%;
+    float: none;
+}
+}
+.menu ul ul{
+    position: static;
+    overflow: hidden;
+    max-height: 1px;
+    transition: all .4s;
+}
+.menu ul li:hover ul{
+    height: auto;
+    max-height: 20px;
+
+}

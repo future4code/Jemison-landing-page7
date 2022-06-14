@@ -31,30 +31,35 @@
 /* INCIO - MAIN  */
 
 
-@media screen and (max-width:750px){
+@media(max-width:750px){
 
 
-    
+    *{
+        text-align: center;
+    }
     main.index-principal{
         flex-direction: column;
+        font-size: small;
+        
     }
 
     h2.index-html{
-        font-size: 38px;
+        font-size: 1px;
 
     }
     form{
+        position: relative;
         margin:0 auto;
-        width: 100%;
-
+        width: 50%;
+left: -15px;
     }
     input{
       align-items: center;
     }
     img.index-html{
-        display: 300px;
-        margin-top: 50px;
-        margin-right: 50px;
+        display: 100px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
    

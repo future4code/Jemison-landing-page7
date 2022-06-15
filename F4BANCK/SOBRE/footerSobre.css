@@ -5,6 +5,8 @@
 footer {
     background-color: rgb(80, 78, 78);
     min-height: 10vh;
+    display: flex;
+    justify-items: center;
 }
 
 

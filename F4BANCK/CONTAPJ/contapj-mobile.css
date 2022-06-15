@@ -25,7 +25,36 @@
 
 /* INCIO - MAIN */
 
+@media screen and (max-width:750px){
 
+
+    
+    main.index-principal{
+        flex-direction: column;
+    }
+    h2.index-main{
+        font-size: 38px;
+    }
+    h2.index-html{
+        font-size: 38px;
+
+    }
+    form{
+        margin:0 auto;
+        width: 100%;
+
+    }
+    input{
+      align-items: center;
+    }
+    img.index-html{
+        display: 300px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+   
+}
 
 
 

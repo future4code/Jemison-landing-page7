@@ -4,33 +4,6 @@
 }
 
 
-/* INICIO - HEADER */
-
-
-
-
-
-
-
-
-/* FIM - HEADER */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* INICIO - MAIN */
 
 
@@ -104,82 +77,49 @@ input{
 
 
 
-
-
-
-
  
 /* FIM - MAIN  */
 
 
 
+/*  MAIN - MOBILE  INICIO  */
+
+@media(max-width:750px){
+
+
+    *{
+        text-align: center;
+    }
+    main.index-principal{
+        flex-direction: column;
+        font-size: small;
+        
+    }
+
+    h2.index-html{
+        font-size: 1px;
+
+    }
+    form{
+        position: relative;
+        margin:0 auto;
+        width: 50%;
+left: -15px;
+    }
+    input{
+      align-items: center;
+    }
+    img.index-html{
+        display: 100px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+   
+}
+
+/*  MAIN - MOBILE  FIM  */
 
 
 
 
-
-
-
-
-
-
-
-
-/* INICIO - FOOTER */
-
-footer {
-    background-color: rgb(80, 78, 78);
-    color: azure;
-    min-height: 100vh;
-    
-  }
-  
-  a{
-    color: azure;
-  }
-  
-  .footer-menu0 ul li a:hover {
-    background-color: orangered;
-    list-style-type: none;
-  }
-  .footer-menu1 ul li a:hover {
-    background-color: orangered;
-    list-style-type:none;
-  }
-  .footer-menu2 ul li a:hover {
-    background-color: orangered;
-    list-style-type:none;
-  }
-  .footer-menu3 ul li a:hover {
-    background-color: orangered;
-    list-style-type: none;
-  }
-  
-  div.div-footer{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-  }
-  
-  .footer-menu4 {
-    position: relative;
-    top: 50px;
-   }
-  
-   footer ul{
-    list-style-type: none;
-   }
-  
-   h3{
-    color: rgb(12, 140, 187);
-   }
-  
-
-
-
-
-
-
-
-
-/* FIM - FOOTER */

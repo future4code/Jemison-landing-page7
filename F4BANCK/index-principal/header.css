@@ -1,3 +1,6 @@
+/* INCIO - HEADER */
+
+
 .menu{
     width: 200vh;
     height: 1px;
@@ -114,6 +117,17 @@ label[for="botao-menu"]{
 display: none;
 
 }
+
+/* FIM - HEADER */
+
+
+
+
+
+
+
+/*  HEADER - MOBILE  INICIO  */
+
 @media(max-width: 1200px) {
     .menu{
         width: 200vh;
@@ -261,3 +275,5 @@ display: none;
     max-height: 1px;
 
 }
+
+/*  HEADER - MOBILE  FIM  */

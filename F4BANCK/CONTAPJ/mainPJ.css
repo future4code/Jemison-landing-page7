@@ -1,33 +1,8 @@
-/* INCIO -HEADER */
-
-
-
-
-
-
-
-
-
-
-/* FIM - HEADER */
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* INCIO - MAIN */
 
 
 body{
-    background-color: white;
+    background: linear-gradient(#ffffff);
     color: rgb(12, 140, 187);
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 1200px;
@@ -92,7 +67,7 @@ span{
 }
 p.index-main{
     
-
+   
     max-height: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -133,11 +108,6 @@ input{
 
 
 
-
-
-
-
-
 /* FIM - MAIN */
 
 
@@ -146,20 +116,39 @@ input{
 
 
 
+/* MAIN - MOBILE INCIO  */
+
+@media screen and (max-width:750px){
+
+
+    
+    main.index-principal{
+        flex-direction: column;
+    }
+    h2.index-main{
+        font-size: 38px;
+    }
+    h2.index-html{
+        font-size: 38px;
+
+    }
+    form{
+        margin:0 auto;
+        width: 100%;
+
+    }
+    input{
+      align-items: center;
+    }
+    img.index-html{
+        display: 300px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+   
+}
 
 
 
-
-
-/* INCIO - FOOTER */
-
-
-
-
-
-
-
-
-
-
-/* FIM - FOOTER */
+/* MAIN - MOBILE FIM  */

@@ -26,6 +26,110 @@
 /* INCIO - MAIN */
 
 
+body{
+    background-color: white;
+    color: rgb(12, 140, 187);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px; 
+
+}
+
+
+a{
+    color: #f06800;
+}
+
+
+#cadastre-se-btn{
+    border: 2px solid rgb(12, 140, 187);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+#cadastre-se-btn:hover{
+    background-color: rgb(12, 140, 187);
+    color: white;
+
+}
+
+h1{
+    font-weight: 200;
+
+}
+
+main.index-principal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    line-height: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3.index-h3{
+    color: #f06800;
+    font-size: 50px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p.index-p3{
+    color: black;
+    font-size: 20px;
+    
+
+}
+span{
+    color: #f06800;
+
+}
+p.index-main{
+    
+
+    max-height: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding:  10px;
+}
+
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    color:#f06800;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+
+   
+}
+input{
+    background: linear-gradient(#ffffff, rgb(168, 212, 228));
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+}
 
 
 

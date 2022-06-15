@@ -113,9 +113,10 @@ li,ul{
 
 
 
-
-
-
+footer {
+    background-color: rgb(80, 78, 78);
+    min-height: 10vh;
+}
 
 
 /* FIM - FOOTER */

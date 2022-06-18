@@ -1,0 +1,42 @@
+/*  FOOTER - INICIO  */
+
+
+footer {
+    background-color: rgb(80, 78, 78);
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% ;
+    position: relative;
+    justify-content: center;
+}
+
+
+
+
+ /* FOOTER - FIM  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* FOOTER - MOBILE INCIO  */
+
+
+
+ 
+
+/* FOOTER - MOBILE FIM  */

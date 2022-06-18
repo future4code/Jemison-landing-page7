@@ -34,4 +34,4 @@ Facilidades = comunicação com o grupo e HTMl.
 
 
 
-LINK SURGE = equal-brick.surge.sh
+LINK SURGE = https://hysterical-way.surge.sh/index.html

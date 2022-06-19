@@ -89,6 +89,7 @@ form [type="submit"]{
     width: 50%;
     color:#f06800;
     font-weight: bold;
+    
 }
 form [type="submit"]:hover{
     cursor: pointer;
@@ -106,6 +107,9 @@ input{
 
 }
 
+input{
+    margin-bottom:15px;
+}
 
 /* FIM - MAIN */
 

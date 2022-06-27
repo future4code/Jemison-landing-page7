@@ -1,0 +1,56 @@
+/*  FOOTER - INICIO  */
+
+
+footer {
+    position: absolute;
+    background-color: rgb(80, 78, 78);
+    min-height: 10vh;
+   width: 100%;
+   
+
+}
+footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+
+ /* FOOTER - FIM  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* FOOTER - MOBILE INCIO  */
+
+
+
+ 
+
+/* FOOTER - MOBILE FIM  */
